@@ -1,3 +1,7 @@
+body {
+    background-image: url(images/circuit.png)
+}
+
 .container {
     width: 960px;
 }
@@ -30,4 +34,46 @@ nav {
 
 .navSeparator {
     margin-top: 8px;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+#aboutMe {
+    color: #4aaaa5;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
+    font-weight: bold;
+}
+
+.rowSpacer {
+    margin-top: 25px;
+}
+
+#portrait {
+    width: 200px;
+    height: 200px;
+    margin: 0px 25px 10px 25px;
+    float: left;
+}
+
+#paragraph1 {
+    line-height: 2;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#paragraph2 {
+    margin-left: 40px;
+    line-height: 2;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 18px;
 }
