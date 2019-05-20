@@ -14,34 +14,39 @@
 
 <body>
     <!-- Start of Nav bar section -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">Darryl Tolentino</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <h1 id="myName">Darryl Tolentino</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+
                     </ul>
-                </form>
-            </div>
-        </nav>
-    </div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="navSeparator">|</li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="navSeparator">|</li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
     <!-- End of Nav bar section-->
     <!-- To-do: In own style.css file, will need to override color of nav-bar background color, text color, bottom border, and height -->
     <!-- Start of Main Content section -->
@@ -55,8 +60,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class = "col-md-12">
-                    <input class = "inputSpacing" type="text" placeholder="John Smith">
+                <div class="col-md-12">
+                    <input class="inputSpacing" type="text" placeholder="John Smith">
                 </div>
             </div>
             <div class="row">
@@ -66,17 +71,17 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <input class = "inputSpacing" type="text" placeholder="example@gmail.com">
+                    <input class="inputSpacing" type="text" placeholder="example@gmail.com">
                 </div>
             </div>
             <div class="row">
-                <div class = "col-md-12">
+                <div class="col-md-12">
                     <p>Message</p>
                 </div>
             </div>
-            <div class = "row">
-                <div class = "col-md-12">
-                    <textarea class = "inputSpacing" type="text" placeholder=""></textarea>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea class="inputSpacing" type="text" placeholder=""></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>

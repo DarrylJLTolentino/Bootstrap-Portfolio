@@ -1,0 +1,33 @@
+.container {
+    width: 960px;
+}
+
+header {
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 40px;
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    height: 74.5px;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 6.5px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #777777;
+}
+
+.navSeparator {
+    margin-top: 8px;
+}
