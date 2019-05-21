@@ -41,7 +41,7 @@ main {
     background-color: #ffffff;
 }
 
-#aboutMe, #portfolioHeader {
+#aboutMe, #portfolioHeader, #contactHeader {
     color: #4aaaa5;
     font-size: 27px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,6 +90,20 @@ main {
     width: 200px;
     z-index: 1;
 }
+
+form {
+    margin: 25px 0px 0px 25px;
+}
+
+.inputSpacing {
+    margin-bottom: 20px;
+    width: 97.5%;
+}
+
+textarea {
+    height: 150px;
+}
+
 
 main {
     min-height: calc(100vh - 70px);
