@@ -22,7 +22,7 @@ nav {
 
 #myName {
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
     padding: 20px;
     margin-top: 6.5px;
@@ -58,6 +58,10 @@ main {
     margin-top: 25px;
 }
 
+.rowMargin {
+    margin-left: 10px;
+}
+
 #portrait {
     width: 200px;
     height: 200px;
@@ -84,9 +88,19 @@ main {
 .caption {
     position: absolute;
     bottom: 0;
-    left: 7%;
-    width: 200px;
+    left: 0%;
+    width: 225px;
     z-index: 1;
+    text-align: center;
+}
+
+.placeholderText {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px 10px 20px 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; 
 }
 
 form {
@@ -119,6 +133,6 @@ footer {
     padding-bottom: 5px;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
