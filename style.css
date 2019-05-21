@@ -23,28 +23,10 @@ nav {
     width: 270px;
 }
 
-
-
-#about {
-    height: 25px;
-    width: 50px;
-}
-
-#portfolio {
-    height: 25px;
-    width: 68px;
-}
-
-#contact {
-    height: 25px;
-    width: 63px;
-}
-
 .nav-link {
     font-size: 18px;
     color: #777777;
     padding-top: 10px;
-    width: 100%;
 }
 
 main {
@@ -61,6 +43,10 @@ main {
     padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
     font-weight: bold;
+}
+
+.navSeparator {
+    margin-top: 10px;
 }
 
 .rowSpacer {
