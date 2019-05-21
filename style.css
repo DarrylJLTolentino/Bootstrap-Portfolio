@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .navbar {
@@ -26,6 +26,7 @@ nav {
     font-size: 30px;
     padding: 20px;
     margin-top: 6.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link {
@@ -64,19 +65,16 @@ main {
     float: left;
 }
 
-#paragraph1 {
+.paragraph {
     line-height: 2;
     text-align: left;
     padding-right: 20px;
     font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#paragraph2 {
-    margin-left: 40px;
-    line-height: 2;
-    text-align: left;
-    padding-right: 20px;
-    font-size: 18px;
+.paragraphSpacer {
+    margin-left: 25px;
 }
 
 .thumbnail {
@@ -114,7 +112,7 @@ footer {
     height: 50px;
     width: 100%;
     background: #666666;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     padding-top: 20px;
