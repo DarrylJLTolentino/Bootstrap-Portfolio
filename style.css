@@ -9,6 +9,7 @@ body {
 header {
     border-bottom: 2px solid #cccccc;
     margin-bottom: 40px;
+    background-color: #ffffff;
 }
 
 nav {
