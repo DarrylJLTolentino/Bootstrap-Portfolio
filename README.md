@@ -12,3 +12,8 @@ This is a basic portfolio website that has three pages: an About Me, a Portfolio
 The About Me page has a photo of myself and a description of who I am as a developer and a person.
 My Portfolio page currently has five placeholder images with placeholder text that will be linked to future projects.
 The Contact Form provides a place to give a name, email, and a message field in order for someone to contact me via the website.
+
+## Technologies Used
+1) [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2) [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3) [Bootstrap](https://getbootstrap.com/)
