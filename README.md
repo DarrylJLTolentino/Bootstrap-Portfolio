@@ -26,3 +26,4 @@ The Contact Form provides a place to give a name, email, and a message field in 
 
 ## Acknowledgements
 - Jake Dudum: For inspiration and bouncing off ideas while working on this project.
+- Jacob Moore: For helping me with the responsiveness of the navbar.
