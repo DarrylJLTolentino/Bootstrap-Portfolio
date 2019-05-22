@@ -20,3 +20,9 @@ The Contact Form provides a place to give a name, email, and a message field in 
 
 ## Versioning
 1) [Github](https://github.com)
+
+## Author
+- Darryl Tolentino
+
+## Acknowledgements
+- Jake Dudum: For inspiration and bouncing off ideas while working on this project.
