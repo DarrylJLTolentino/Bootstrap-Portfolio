@@ -78,6 +78,11 @@ main {
     margin-left: 25px;
 }
 
+img {
+    height: 225px;
+    width: 225px;
+}
+
 .thumbnail {
     position: relative;
 }
