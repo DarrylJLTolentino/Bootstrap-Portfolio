@@ -132,6 +132,10 @@ main {
     padding-bottom: 20px;
 }
 
+.repoCode::before {
+    clear: both;
+}
+
 footer {
     height: 50px;
     width: 100%;
