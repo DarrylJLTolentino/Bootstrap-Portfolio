@@ -78,6 +78,14 @@ main {
     margin-left: 25px;
 }
 
+#github, #badge {
+    float: left;
+}
+
+#github {
+    height: 100%;
+}
+
 img {
     height: 225px;
     width: 225px;
